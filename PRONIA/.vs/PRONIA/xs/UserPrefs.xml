@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{7125DA96-AA20-4092-896C-207F64F5CD7D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PRONIA/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PRONIA/Models/Services.cs">
     <Files>
-      <File FileName="PRONIA/Views/Home/Index.cshtml" Line="5" Column="1" />
-      <File FileName="PRONIA/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="PRONIA/Views/Home/Index.cshtml" Line="19" Column="33" />
+      <File FileName="PRONIA/Views/Shared/_Layout.cshtml" />
       <File FileName="PRONIA/Models/ErrorViewModel.cs" />
-      <File FileName="PRONIA/Controllers/HomeController.cs" />
+      <File FileName="PRONIA/Controllers/HomeController.cs" Line="21" Column="10" />
+      <File FileName="PRONIA/Startup.cs" />
+      <File FileName="PRONIA/DAL/ProniaContext.cs" />
+      <File FileName="PRONIA/Models/Slider.cs" Line="23" Column="1" />
+      <File FileName="PRONIA/DAL/20220918173027_CreatedSliderTable.cs" />
+      <File FileName="PRONIA/Views/_ViewStart.cshtml" />
+      <File FileName="PRONIA/Views/_ViewImports.cshtml" />
+      <File FileName="PRONIA/Models/Services.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,13 +19,12 @@
           <Node name="PRONIA" expanded="True">
             <Node name="PRONIA" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="DAL" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Services.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
               </Node>
             </Node>
           </Node>
