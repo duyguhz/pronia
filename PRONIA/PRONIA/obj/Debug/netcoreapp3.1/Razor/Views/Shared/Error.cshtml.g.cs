@@ -26,8 +26,15 @@ using PRONIA.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/duyguhasanzade/Desktop/proniaa-web/PRONIA/PRONIA/Views/_ViewImports.cshtml"
+using PRONIA.ViewModels.Home;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4ecc4d2bcad30a6aee551879bc7e7094ebb4184d", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aa57ec4f0f96887da606a8afc70e1ef26642cc8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"85291c6a87d2998394171244d0e816e39c012ab7", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     {
         #pragma warning disable 1998

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using pronia.DAL;
 using PRONIA.Models;
+using PRONIA.ViewModels.Home;
 
 namespace PRONIA.Controllers
 {
@@ -21,7 +22,10 @@ namespace PRONIA.Controllers
         }
         public IActionResult Index()
         {
-            return View(_context.Sliders);
+            HomeVm vm = new HomeVm();
+            vm.Sliders = _context.Sliders.OrderBy(x => x.Order);
+            vm.Services = _context.Services;
+            return View(vm);
         }
 
      
